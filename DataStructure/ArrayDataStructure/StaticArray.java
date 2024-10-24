@@ -133,6 +133,10 @@ public class StaticArray {
                 else{
                     System.out.println("SORRY !! Index out of bound");
                 } 
+                break;
+            default:
+                System.out.println("SORRY!! No such choice available");
+                break;    
         }          
     }
 }
